@@ -1,0 +1,77 @@
+/* 
+  Localizable.strings
+  Toodoo
+
+  Created by Shi wei Yang on 2021/10/8.
+  
+*/
+
+//MARK: - System generate
+
+"System_generate_new_todo_title" = "新增待辦事項";
+"System_alert_add_btn" = "新增";
+"System_alert_cancel_btn" = "取消";
+"System_alert_delete_btn" = "刪除";
+
+
+//MARK: - Tab bar controller
+
+"tab_bar_title_todo" = "待辦事項";
+"tab_bar_title_category" = "分類";
+"tab_bar_title_settings" = "設定";
+
+
+//MARK: - Category picker alert
+
+"Category_alert_add_title" = "新增分類";
+"Category_alert_add_textfield_placeholder" = "輸入分類名稱";
+"Category_nav_title" = "選擇分類";
+
+
+//MARK: - Category View
+
+"CategoryView_system_recently_deleted" = "最近刪除";
+"CategoryView_trailing_delete_title" = "刪除";
+"CategoryView_recently_delete_trailing_title" = "查看";
+
+
+//MARK: - Todo View
+
+"TodoList_nav_title" = "待辦事項";
+"TodoView_leading_edit_btn" = "修改";
+"TodoView_trailing_delete_btn" = "刪除";
+"TodoView_expire_date_title" = "到期日";
+"TodoView_date_not_set" = "尚未設定";
+
+
+//MARK: - Details View
+
+"NewTodoView_category_title" = "分類";
+"NewTodoView_end_date_title" = "到期日";
+"NewTodoView_priority_title" = "重要性";
+"NewTodoView_subtask_title" = "子任務";
+"NewTodoView_reminder_title" = "提醒";
+"NewTodoView_nav_update_title" = "更新";
+"NewTodoView_nav_cancel_title" = "取消";
+"NewTodoView_nav_title" = "詳細資訊";
+
+/// default value
+"NewTodoView_category_not_set" = "目前沒有分類";
+"NewTodoView_detaildesc_placeholder" = "目前沒有備註";
+"NewTodoView_detaildesc_no_description" = "目前沒有備註";
+"NewTodoView_date_not_set" = "尚未設定日期";
+
+
+//MARK: - Priority
+
+"Priority_High" = "高";
+"Priority_Medium" = "中";
+"Priority_Low" = "低";
+"Priority_None" = "無";
+
+
+//MARK: - SubTask Picker
+
+"Subtask_alert_add_textfield_placeholder" = "子任務名稱";
+"Subtask_alert_add_title" = "新增子任務";
+"SubTask_nav_title" = "子任務";

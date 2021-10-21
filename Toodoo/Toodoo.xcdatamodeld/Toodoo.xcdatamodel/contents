@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TDCDCategory" representedClassName="TDCDCategory" syncable="YES">
+        <attribute name="createdDate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="TDCDSubtask" representedClassName="TDCDSubtask" syncable="YES">
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="todoUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="uid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TDCDTodo" inverseName="subtasks" inverseEntity="TDCDTodo"/>
+    </entity>
+    <entity name="TDCDTodo" representedClassName="TDCDTodo" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="expiredDate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="recentlyDelete" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="remind" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="subtasks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TDCDSubtask" inverseName="todo" inverseEntity="TDCDSubtask"/>
+    </entity>
+    <elements>
+        <element name="TDCDCategory" positionX="-36" positionY="9" width="128" height="74"/>
+        <element name="TDCDSubtask" positionX="-54" positionY="-9" width="128" height="119"/>
+        <element name="TDCDTodo" positionX="-63" positionY="-18" width="128" height="194"/>
+    </elements>
+</model>

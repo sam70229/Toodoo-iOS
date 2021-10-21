@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  Toodoo
+
+  Created by Shi wei Yang on 2021/10/8.
+  
+*/
+
+//MARK: - System generate
+
+"System_generate_new_todo_title" = "New todo";
+"System_alert_add_btn" = "Add";
+"System_alert_cancel_btn" = "Cancel";
+"System_alert_delete_btn" = "Delete";
+
+
+//MARK: - Tab bar controller
+
+"tab_bar_title_todo" = "Todo";
+"tab_bar_title_category" = "Category";
+"tab_bar_title_settings" = "Settings";
+
+
+//MARK: - Category picker alert
+
+"Category_alert_add_title" = "Add New Category";
+"Category_alert_add_textfield_placeholder" = "new category name";
+"Category_nav_title" = "Choose category";
+
+
+//MARK: - Category View
+
+"CategoryView_system_recently_deleted" = "Recently Deleted";
+"CategoryView_trailing_delete_title" = "Delete";
+"CategoryView_recently_delete_trailing_title" = "View";
+
+
+//MARK: - Todo View
+
+"TodoList_nav_title" = "Todo";
+"TodoView_leading_edit_btn" = "Edit";
+"TodoView_trailing_delete_btn" = "Delete";
+"TodoView_expire_date_title" = "Expire_date";
+"TodoView_date_not_set" = "Not Set";
+
+
+//MARK: - Details View
+
+"NewTodoView_category_title" = "Category";
+"NewTodoView_end_date_title" = "Expire_Date";
+"NewTodoView_priority_title" = "Priority";
+"NewTodoView_subtask_title" = "Subtasks";
+"NewTodoView_reminder_title" = "Reminder";
+"NewTodoView_nav_update_title" = "Update";
+"NewTodoView_nav_cancel_title" = "Cancel";
+"NewTodoView_nav_title" = "Details";
+
+/// default value
+"NewTodoView_category_not_set" = "Not set";
+"NewTodoView_date_not_set" = "Not set";
+"NewTodoView_detaildesc_placeholder" = "Currently no description";
+"NewTodoView_detaildesc_no_description" = "Currently no description";
+
+
+//MARK: - Priority
+
+"Priority_High" = "High";
+"Priority_Medium" = "Medium";
+"Priority_Low" = "Low";
+"Priority_None" = "None";
+
+//MARK: - SubTask Picker
+
+"Subtask_alert_add_textfield_placeholder" = "new subtask name";
+"Subtask_alert_add_title" = "Add Subtask";
+"SubTask_nav_title" = "Subtasks";
